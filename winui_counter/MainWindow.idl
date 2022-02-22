@@ -1,0 +1,11 @@
+namespace winui_counter
+{
+    runtimeclass MainWindow :
+        Microsoft.UI.Xaml.Window,
+        Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        MainWindow();
+
+        Int32 Value{ get; };
+    }
+}
